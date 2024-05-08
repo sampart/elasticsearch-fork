@@ -1,0 +1,23 @@
+---
+library: true
+warnOnImplicitThis: true
+name: codeql/python-all
+version: 0.11.14
+buildMetadata:
+  sha: 0daa6c2c1dba841aafd611d8fcc2b9d732eb17b0
+  cliVersion: 2.17.1
+dependencies:
+  codeql/dataflow: 0.2.5
+  codeql/mad: 0.2.14
+  codeql/regex: 0.2.14
+  codeql/tutorial: 0.2.14
+  codeql/util: 0.2.14
+  codeql/xml: 0.0.1
+  codeql/yaml: 0.2.14
+dbscheme: semmlecode.python.dbscheme
+extractor: python
+upgrades: upgrades
+groups:
+ - python
+dataExtensions:
+ - semmle/python/frameworks/**/*.model.yml

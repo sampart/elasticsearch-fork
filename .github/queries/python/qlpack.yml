@@ -1,0 +1,10 @@
+---
+library: false
+warnOnImplicitThis: false
+name: dsp-testing/python-efficiency
+version: 1.0.0
+description: Test of efficiency queries
+default-suite-file: ./python-efficiency.qls
+dependencies:
+  codeql/python-all: ^0.11.3
+  codeql/python-queries: x
