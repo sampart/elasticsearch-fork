@@ -2,7 +2,7 @@
 library: false
 warnOnImplicitThis: false
 name: dsp-testing/python-efficiency
-version: 1.0.0
+version: 1.0.1
 description: Test of efficiency queries
 defaultSuiteFile: ./python-efficiency.qls
 dependencies:

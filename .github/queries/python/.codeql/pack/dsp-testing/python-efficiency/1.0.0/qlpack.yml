@@ -5,7 +5,9 @@ name: dsp-testing/python-efficiency
 version: 1.0.0
 description: Test of efficiency queries
 buildMetadata:
+  sha: 19c6f1f7991f063da429e42c8a2d05d7b1c1fc1d
   cliVersion: 2.13.4
 dependencies:
   codeql/python-all: ^0.11.3
   codeql/python-queries: x
+defaultSuiteFile: ./python-efficiency.qls
